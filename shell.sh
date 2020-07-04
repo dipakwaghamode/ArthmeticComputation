@@ -15,3 +15,5 @@ read -p "Enter value of c: " c
 	echo $addition
 	multiplication=$(( $a*$b+$c ))
 	echo $multiplication
+	division=$(( ($c + $a) / $b ))
+	echo $division
