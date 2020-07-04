@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash 
 echo "Welcome to Arthmetic Computation "
 
 
@@ -17,3 +17,5 @@ read -p "Enter value of c: " c
 	echo $multiplication
 	division=$(( ($c + $a) / $b ))
 	echo $division
+	modulus=$(( $a % $b + $c ))
+	echo   $modulus 
